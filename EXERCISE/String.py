@@ -10,14 +10,13 @@ name = input("Enter your name: ")
 first_character = name[0]
 print("The first character of your name is:", first_character)
 Lengthname= len(name)
-print("Your name length is",Lengthname)
 contains_space=" "in name
 if contains_space==1:
     Find= name.find(" ")
     Lname=""
     for i in range (0,Find):
         Lname=Lname+name[i]
-    print("Your last name is",Lname)    
+    print("Your last name is",Lname)   
 
 # Concatenate (combine) two strings
 greeting = "Hello, " + name + "!"
